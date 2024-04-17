@@ -30,7 +30,7 @@
 
 import Foundation
 import UIKit
-import Segment
+import VYBZSegment
 import AppsFlyerLib
 
 @objc(SEGAppsFlyerDestination)
