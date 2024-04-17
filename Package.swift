@@ -21,7 +21,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
             name: "VYBZSegment",
-            url: "https://github.com/alexandervybz/analytics-swift",
+            url: "https://github.com/alexandervybz/VYBZSegment",
             from: "1.5.9"
         ),
         .package(
