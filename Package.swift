@@ -20,8 +20,8 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
-            name: "Segment",
-            url: "https://github.com/segmentio/analytics-swift.git",
+            name: "VYBZSegment",
+            url: "https://github.com/alexandervybz/analytics-swift",
             from: "1.5.9"
         ),
         .package(
@@ -35,7 +35,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SegmentAppsFlyer",
-            dependencies: ["Segment", "AppsFlyerLib-Dynamic"]),
+            dependencies: ["VYBZSegment", "AppsFlyerLib-Dynamic"]),
         
         // TESTS ARE HANDLED VIA THE EXAMPLE APP.
     ]
